@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\BoardController;
 use App\Http\Controllers\Api\TaskController;
 
@@ -17,7 +18,9 @@ Route::post('/login', [AuthController::class, 'login']);
 
 // Protected routes (require authentication via Sanctum)
 Route::middleware('auth:sanctum')->group(function () {
-    Route::post('/logout', [AuthController::class, 'logout']);
+
+    // User APIs
+    Route::apiResource('users', UserController::class);
 
     // Board and Task routes
     Route::apiResource('boards', BoardController::class);
