@@ -20,6 +20,6 @@
 #    "password": "12345678",
 # }
 #
-# 3. Protected API Access: The token is used to access the protected routes like users, boards, tasks which are guarded by the auth:sanctum middleware
+# 3. Protected API Access: The token is used to access the protected routes like users, boards, tasks which are guarded # # by the auth:sanctum middleware
 #
 #
