@@ -1,5 +1,9 @@
 # InstantPay Task
 
+# First Setup Project
+
+# Any error or issues Apis check in Postman then Ran Command php artisan optimize.
+
 # Authentication Mechanism:
 #
 # 1. Signup/Login: User creates an account or logs in using their credentials.
