@@ -2,7 +2,7 @@
 
 # First Setup Project
 
-# Any error or issues Apis check in Postman then Ran Command php artisan optimize.
+# Any error or issues Apis check in Postman then Run Command php artisan optimize.
 
 # Authentication Mechanism:
 #
